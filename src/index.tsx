@@ -10,6 +10,7 @@ import { Provider } from 'react-redux'
 console.log(process.env)
 
 const store = StoreConfig as Store
+
 ReactDOM.render(
     <Provider store={store}>
         <RouterComponent  />

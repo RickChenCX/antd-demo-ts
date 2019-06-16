@@ -6,6 +6,7 @@ export interface ADD_NAME {
 }
 
 export function addName(id: string): ADD_NAME {
+    console.log("action",id)
     return {
         type: actionType.ADD_NAME,
         text: id

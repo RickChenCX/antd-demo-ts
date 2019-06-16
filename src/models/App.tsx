@@ -36,7 +36,7 @@ class App extends  React.Component <PageProps,State>{
             this.setState({
               name:this.props.name.name
             })
-            this.props.handelName("mars")
+            this.props.handelName("mars" + Math.random())
             
           }}>换一个名字</Button>
       </div>
